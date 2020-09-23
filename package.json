@@ -1,0 +1,19 @@
+{
+  "name": "ask-take-go",
+  "version": "1.0.0",
+  "description": "The website for Ask Take Go",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yash-Jawale/ask-take-go.git"
+  },
+  "author": "Yash Jawale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yash-Jawale/ask-take-go/issues"
+  },
+  "homepage": "https://github.com/Yash-Jawale/ask-take-go#readme"
+}
