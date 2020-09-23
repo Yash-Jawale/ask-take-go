@@ -1,0 +1,161 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+.container {
+	flex: 1;
+}
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.33%;
+}
+.col-5 {
+	width: 41.66%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.33%;
+}
+.col-8 {
+	width: 66.66%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.33%;
+}
+.col-11 {
+	width: 91.66%;
+}
+.col-12 {
+	width: 100%;
+}
+.col-b {
+	width: 65%;
+}
+.col-s {
+	width: 35%;
+}
+.gutter {
+	width: var(--gutter-width);
+}
+.main-row {
+	display: flex;
+	width: 100%;
+	/* margin-top: var(--gap);
+    margin-bottom: var(--gap); */
+	padding-top: var(--gap-l);
+	padding-bottom: var(--gap-l);
+}
+.main-row::after {
+	display: block;
+	clear: both;
+	content: "";
+}
+.sub-row {
+	display: flex;
+	width: 100%;
+}
+.sub-row::after {
+	display: block;
+	clear: both;
+	content: "";
+}
+.cont-l,
+.cont-r {
+	/* max-width: 300px; */
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+.cont-l {
+	/* margin-right: var(--cont-width); */
+	padding-right: var(--cont-gap);
+}
+.cont-r {
+	/* margin-left: var(--cont-width); */
+	padding-left: var(--cont-gap);
+}
+.img-cont-l {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	border-radius: 0 var(--radius) var(--radius) 0;
+	overflow: hidden;
+
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.img-cont-r {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	border-radius: var(--radius) 0 0 var(--radius);
+	overflow: hidden;
+
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.side-img {
+	width: 100%;
+	height: 100%;
+
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	object-fit: cover;
+}
+
+/* -------- RESPONSIVE ------------- */
+@media all and (max-width: 1024px) {
+	[class*="col-"] {
+		width: 100%;
+		margin-bottom: 36px;
+	}
+	.cont-l,
+	.cont-r {
+		max-width: none;
+		padding-left: 0;
+		padding-right: 0;
+		border-radius: var(--radius);
+	}
+	.main-row,
+	.sub-row {
+		flex-direction: column;
+	}
+	.main-row {
+		padding-left: var(--gutter-width);
+		padding-right: var(--gutter-width);
+	}
+	.img-cont-l,
+	.img-cont-r {
+		/* height: 200px; */
+		min-height: 40vh;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+}

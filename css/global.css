@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+/* --- REMOVING DEFAULT --- */
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+/* --- COLORS --- */
+
+/* Default theme colors */
+:root {
+	--primary: #ff610f;
+	--bg-col: #fff;
+	--scroll-bg: #ececec;
+	--primary-hover: #e6651f;
+
+	--neu-bg: #f2f2f2;
+	--neu-top: rgba(255, 255, 255, 1);
+	--neu-bottom: rgba(0, 0, 0, 0.3);
+
+	/*Navigation*/
+	--nav-bg: #ff610f;
+	--nav-links: #181818;
+	--nav-links-hover: #ffffff;
+	--nav-burger: #ffffff;
+
+	/*Footer*/
+	--footer-bg: #3f3f3f;
+	--footer-text: #ffffffd9;
+
+	/* Style */
+	--hero-card: #008dd2d9;
+	--grey-sec: #f3f3f3;
+	--line: #9d9e9e;
+
+	/*Text*/
+	--heading: #000;
+	--body: #000;
+	--pg: #1b1b1bd9;
+	--pw: #000000d9;
+
+	/*Layout*/
+	--gutter-width: 8%;
+	--gap-s: 1.5rem;
+	--gap-m: 2.5rem;
+	--gap-l: 6rem;
+	--top-offset: -180px;
+	--center-offset: 14%;
+	--cont-gap: 100px;
+}
+
+/* Dark theme colors */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--primary: #fdc124;
+		--bg-col: #fff;
+		--scroll-bg: #ececec;
+		--primary-hover: #ecb62e;
+
+		--neu-bg: #f2f2f2;
+		--neu-top: rgba(255, 255, 255, 1);
+		--neu-bottom: rgba(0, 0, 0, 0.3);
+
+		/*Navigation*/
+		--nav-bg: #fdc124;
+		--nav-links: #fff;
+		--nav-links-hover: #000;
+		--nav-burger: #fff;
+
+		/*Text*/
+		--heading: #000;
+		--body: #000;
+	}
+}
+
+/* --- CUSTOMIZING SCROLLBAR --- */
+
+/* The emerging W3C standard
+   that is currently Firefox-only */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: var(--primary) var(--scroll-bg);
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+	width: 12px;
+}
+*::-webkit-scrollbar-track {
+	background: var(--scroll-bg);
+}
+*::-webkit-scrollbar-thumb {
+	background-color: var(--primary);
+	border-radius: 4px;
+	border: 2px solid var(--scroll-bg);
+}
+
+/* --- TYPOGRAPHY --- */
+
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--heading);
+}
+
+body {
+	color: var(--body);
+}
+
+.grey-text {
+	color: var(--grey-text);
+}
+
+form,
+input,
+select,
+option,
+textarea {
+}
+
+/* ------- UTILITY CLASSES -------- */
+.text-light {
+	font-weight: 300;
+}
+.text-regular {
+	font-weight: 400;
+}
+.text-medium {
+	font-weight: 500;
+}
+.text-bold {
+	font-weight: 700;
+}
+.text-black {
+	font-weight: 900;
+}
+/* --- FONT SIZES --- */
+
+nav {
+	/* font-size: 1.25rem; */
+	font-size: 1rem;
+}
+p {
+	/* font-size: 1.25rem; */
+	font-size: 1rem;
+	padding-bottom: var(--gap-s);
+	line-height: 1.5;
+	color: var(--pw);
+}
+h1,
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.5rem;
+	padding-bottom: 16px;
+}
+h1 {
+	padding-bottom: 1.5rem;
+}
+
+/* --- GLOBAL BACKGROUND COLOR --- */
+
+body {
+	background-color: var(--bg-col);
+}
+
+::-moz-selection {
+	/* Code for Firefox */
+	color: var(--bg-col);
+	background: var(--primary);
+}
+
+::selection {
+	color: var(--bg-col);
+	background: var(--primary);
+}
+
+/* --- GLOBAL ELEMENTS --- */
+
+/* Image inside div */
+
+.image-cont {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.image-cont > img {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	object-fit: cover;
+}
