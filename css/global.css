@@ -14,7 +14,9 @@
 /* Default theme colors */
 :root {
 	--primary: #ff610f;
+	--secondary: #3e5272;
 	--bg-col: #fff;
+	--grey-sec: #f5f5f5;
 	--scroll-bg: #ececec;
 	--primary-hover: #e6651f;
 
@@ -40,14 +42,15 @@
 	/*Text*/
 	--heading: #000;
 	--body: #000;
+	--text-white: #fff;
 	--pg: #1b1b1bd9;
 	--pw: #000000d9;
 
 	/*Layout*/
 	--gutter-width: 8%;
-	--gap-s: 1.5rem;
-	--gap-m: 2.5rem;
-	--gap-l: 6rem;
+	--gap-s: 1rem;
+	--gap-m: 2rem;
+	--gap-l: 4rem;
 	--top-offset: -180px;
 	--center-offset: 14%;
 	--cont-gap: 100px;
@@ -161,7 +164,7 @@ h2 {
 }
 h3 {
 	font-size: 1.5rem;
-	padding-bottom: 16px;
+	/* padding-bottom: 16px; */
 }
 h1 {
 	padding-bottom: 1.5rem;
