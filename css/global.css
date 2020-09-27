@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@300;400;500;700;900&display=swap");
 
 /* --- REMOVING DEFAULT --- */
 
@@ -51,7 +52,7 @@
 	--gutter-width: 8%;
 	--gap-s: 1rem;
 	--gap-m: 2rem;
-	--gap-l: 4rem;
+	--gap-l: 6rem;
 	--top-offset: -180px;
 	--center-offset: 14%;
 	--cont-gap: 100px;

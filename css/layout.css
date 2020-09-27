@@ -136,7 +136,9 @@ body {
 	text-align: center;
 }
 .hero h1 {
-	font-size: 3rem;
+	font-size: 3.5rem;
+	/* font-family: "Montserrat", sans-serif;
+	font-weight: 900; */
 }
 .hero p {
 	font-size: 1.2rem;
@@ -164,6 +166,7 @@ body {
 .dec-bg {
 	background-image: url("../assets/decal.svg");
 	background-size: cover;
+	background-position: center;
 }
 .ft-label {
 	font-size: 1.75rem;
@@ -176,8 +179,12 @@ body {
 .ft-img {
 	/* padding-right: 2rem; */
 }
+.ft-img img {
+	/* padding-right: 2rem; */
+	width: 90px;
+}
 .ft-text {
-	padding: 2rem;
+	padding: 1.5rem;
 }
 .ft-text h4 {
 	color: var(--primary);
@@ -228,8 +235,8 @@ body {
 }
 .grey-part-cont h2 {
 	color: var(--primary);
-	font-size: 2.25rem;
-	font-weight: 900;
+	font-size: 2rem;
+	font-weight: 400;
 }
 .grey-part-cont p,
 .side-desc p {
@@ -258,18 +265,24 @@ body {
 	font-weight: 300;
 }
 .cta-center a {
-	margin-top: var(--gap-m);
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 .cta-center strong {
-	font-weight: 900;
-	font-size: 2.25rem;
+	font-weight: 300;
+	font-size: 2.5rem;
+}
+
+.journey {
+	justify-content: center;
+	padding-top: var(--gap-m);
 }
 
 /* ========== UTILITIES ============= */
 p.single-paragraph {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	text-align: center;
-	max-width: 750px;
+	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -289,13 +302,21 @@ p.single-paragraph {
 a.primary {
 	color: var(--bg-col);
 	background-color: var(--primary);
-	padding: 1rem;
+	padding: 1.5rem 3rem;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 1.25rem;
-	-webkit-box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.3);
+	/* -webkit-box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.3);
-	box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.3); */
+	box-shadow: 0px 0px 20px 0px rgba(255, 97, 15, 0.4);
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(255, 97, 15, 0.4);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(255, 97, 15, 0.4);
+}
+
+.neg-offset {
+	width: 100%;
+	margin-bottom: calc(-1 * var(--gap-l));
 }
 
 .img-sec {
@@ -312,15 +333,16 @@ a.primary {
 	text-align: center;
 }
 .img-sec p {
-	color: #fff;
-	font-size: 1.25rem;
-	font-weight: 700;
+	color: var(--primary);
+	font-size: 2.25rem;
+	font-weight: 300;
 	padding-bottom: var(--gap-l);
 }
 .img-sec strong {
 	font-size: 2.25rem;
-	font-weight: 700;
+	font-weight: 300;
 	padding-bottom: 0;
+	color: var(--text-white);
 }
 
 .big-text {
