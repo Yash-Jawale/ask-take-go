@@ -231,14 +231,38 @@ body {
 	font-size: 2.25rem;
 	font-weight: 900;
 }
-.grey-part-cont p {
+.grey-part-cont p,
+.side-desc p {
 	color: var(--secondary);
 	padding-top: var(--gap-s);
 	font-weight: 300;
 	/* font-size: 1.25rem; */
+	font-size: 1.1rem;
+}
+.side-desc {
+	padding: var(--gap-m);
 }
 .grey-part-cont strong {
 	font-weight: 700;
+}
+
+.cta-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.cta-center p {
+	padding-top: var(--gap-m);
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+.cta-center a {
+	margin-top: var(--gap-m);
+}
+.cta-center strong {
+	font-weight: 900;
+	font-size: 2.25rem;
 }
 
 /* ========== UTILITIES ============= */
@@ -262,6 +286,47 @@ p.single-paragraph {
 .no-bpadding {
 	padding-bottom: 0;
 }
+a.primary {
+	color: var(--bg-col);
+	background-color: var(--primary);
+	padding: 1rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.25rem;
+	-webkit-box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.img-sec {
+	color: #fff;
+	/* background-image: url("../assets/home/business.jpg"); */
+	background: linear-gradient(
+			0deg,
+			rgba(11, 24, 45, 0.67),
+			rgba(11, 24, 45, 0.67)
+		),
+		url("../assets/home/business.jpg");
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+}
+.img-sec p {
+	color: #fff;
+	font-size: 1.25rem;
+	font-weight: 700;
+	padding-bottom: var(--gap-l);
+}
+.img-sec strong {
+	font-size: 2.25rem;
+	font-weight: 700;
+	padding-bottom: 0;
+}
+
+.big-text {
+	font-size: 1.75rem;
+}
+
 /* ======= UTILITIES ======= */
 
 /* -------- RESPONSIVE ------------- */
@@ -294,6 +359,9 @@ p.single-paragraph {
 	.ft-text {
 		padding: 0;
 		padding-left: 2rem;
+	}
+	.step {
+		padding-top: var(--gap-l);
 	}
 }
 
