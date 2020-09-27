@@ -303,6 +303,7 @@ a.primary {
 	color: var(--bg-col);
 	background-color: var(--primary);
 	padding: 1.5rem 3rem;
+	border-radius: 4px;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 1.25rem;

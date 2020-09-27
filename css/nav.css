@@ -8,6 +8,7 @@ nav {
 nav a {
 	color: var(--nav-links);
 	text-decoration: none;
+	font-weight: 400;
 }
 .menu,
 .submenu {
@@ -22,7 +23,7 @@ nav a {
 	padding-top: 7px;
 }
 .logo img {
-	width: 140px;
+	width: 80px;
 }
 
 @media (prefers-color-scheme: dark) {
