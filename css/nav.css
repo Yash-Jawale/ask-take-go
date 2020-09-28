@@ -4,6 +4,8 @@ nav {
 	background: var(--nav-bg);
 	padding: 10px var(--gutter-width);
 	text-transform: uppercase;
+	position: sticky;
+	top: 0;
 }
 nav a {
 	color: var(--nav-links);
