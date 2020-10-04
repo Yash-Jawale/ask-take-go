@@ -81,7 +81,7 @@ body {
 	flex-direction: column;
 	width: 100%;
 	height: 100%;
-	padding-bottom: 2rem;
+	padding-bottom: 6rem;
 }
 .cont-l {
 	/* margin-right: var(--cont-width); */
@@ -306,6 +306,12 @@ p.single-paragraph {
 .no-bpadding {
 	padding-bottom: 0;
 }
+.no-rpadding {
+	padding-right: 0;
+}
+.no-radius {
+	border-radius: 0;
+}
 a.primary {
 	color: var(--bg-col);
 	background-color: var(--primary);
@@ -394,6 +400,240 @@ a.primary {
 
 /* ======= UTILITIES ======= */
 
+/* ============= SOLUTION PAGE =============== */
+.application-cont {
+	display: flex;
+	flex-direction: column;
+}
+.application-cont h2 {
+	font-size: 1.5rem;
+	font-weight: 500;
+	text-align: center;
+	padding-bottom: 3rem;
+	color: var(--secondary);
+}
+.application {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-top: 2.375rem;
+}
+.application strong {
+	font-size: 3.125rem;
+	font-weight: 700;
+	color: #a7a7a7;
+	padding-right: 1rem;
+}
+.application p {
+	font-size: 1.5rem;
+	font-weight: 400;
+	padding-left: 30px;
+}
+.app-desc {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+/* .application hr {
+	width: 100%;
+	border-top: 1px dashed black;
+} */
+.dash {
+	background: repeating-linear-gradient(
+		90deg,
+		#000,
+		#000 10px,
+		#fff 10px,
+		#fff 20px
+	);
+	height: 2px;
+	width: 100%;
+}
+.application > div {
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+}
+.app-desc {
+	width: 100%;
+	max-width: 500px;
+	background-color: #fff;
+}
+.app-offset {
+	position: relative;
+	left: -25%;
+}
+
+/*Product Cards*/
+
+.product-cont {
+	display: flex;
+	flex-direction: column;
+}
+.product {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 3rem;
+}
+.product > div {
+	width: 50%;
+}
+.prod-desc {
+	background-color: var(--grey-sec);
+	padding: 50px;
+}
+.prod-desc h3 {
+	text-transform: uppercase;
+	font-size: 4rem;
+	font-weight: 300;
+	color: var(--primary);
+}
+.prod-desc a {
+	color: var(--tertiary);
+	text-decoration: underline;
+}
+
+/* =============== VALUE PAGE =============== */
+
+.single-paragraph h2,
+.single-paragraph p {
+	color: var(--secondary);
+}
+.single-paragraph h2 {
+	padding-bottom: 2.25rem;
+	font-size: 2.25rem;
+	font-weight: 500;
+}
+
+.shadow-cont {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.sh-card {
+	width: 100%;
+	max-width: 600px;
+	border-radius: 26px;
+	padding: 60px;
+	margin-bottom: 90px;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.sh-card h3 {
+	color: var(--primary);
+	padding-bottom: 2.25rem;
+	font-size: 1.875rem;
+	font-weight: 500;
+}
+.sh-card a {
+	color: var(--tertiary);
+	text-decoration: underline;
+}
+
+/* ============ WHY ASKTAKEGO? ============ */
+.top-head h2 {
+	padding-bottom: 2rem;
+	font-weight: 500;
+	color: var(--secondary);
+}
+.small-paragraph {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.small-paragraph > div {
+	width: 50%;
+	padding-right: 32px;
+}
+.small-paragraph > div h3 {
+	color: var(--primary);
+	padding-bottom: 2.25rem;
+	font-size: 1.875rem;
+	font-weight: 500;
+}
+.single-sub-head > h2 {
+	font-size: 2.25rem;
+	font-weight: 500;
+	text-align: left;
+}
+.why-card > h3 {
+	font-size: 2rem;
+	font-weight: 500;
+	color: var(--secondary);
+	padding: 1.625rem 0;
+}
+.why-card {
+	padding-bottom: 100px;
+	padding-right: 3rem;
+}
+
+/* ======= COMPANY PAGE ======= */
+
+.single-hero {
+	height: 500px;
+}
+.side-head > h2 {
+	color: var(--primary);
+	font-size: 1.875rem;
+	font-weight: 500;
+	padding-bottom: 2.875rem;
+}
+
+/* ===== CONTACT PAGE =========== */
+.contact-desc {
+	padding-top: 0;
+	padding-left: var(--cont-gap);
+}
+.contact-call p {
+	padding-top: var(--gap-m);
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+.contact-call strong {
+	font-weight: 300;
+	font-size: 2.5rem;
+}
+
+form.contact-form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background-color: var(--grey-sec);
+	padding: 100px 60px;
+	border-radius: 26px;
+}
+input,
+textarea {
+	font-weight: 300;
+	font-size: 1.2rem;
+	color: var(--secondary);
+	padding: 1.2rem 1.5rem;
+	border-radius: 6px;
+	border: 0;
+	margin-bottom: 1.825rem;
+}
+input[type="submit"] {
+	color: #fff;
+	background-color: var(--primary);
+	padding: 1.5rem 3rem;
+	text-transform: uppercase;
+	width: min-content;
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.contact-hero {
+	width: 100%;
+	height: 700px;
+	background-image: url("https://picsum.photos/800");
+	background-size: cover;
+	margin-top: -400px;
+	z-index: -1;
+}
+
 /* -------- RESPONSIVE ------------- */
 @media all and (max-width: 1024px) {
 	[class*="col-"] {
@@ -427,6 +667,21 @@ a.primary {
 	}
 	.step {
 		padding-top: var(--gap-l);
+	}
+	.app-offset {
+		/* padding-right: 0; */
+		position: relative;
+		left: 0;
+	}
+
+	.product {
+		flex-direction: column;
+	}
+	.product div {
+		width: 100%;
+	}
+	.product .image-cont {
+		min-height: 25rem;
 	}
 }
 

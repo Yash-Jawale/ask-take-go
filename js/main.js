@@ -63,3 +63,11 @@ function closeSubmenu(e) {
 
 /* Event Listener */
 document.addEventListener("click", closeSubmenu, false);
+
+/** ============= LOADING SPINNER ========= */
+
+const preloader = document.querySelector(".spinner-cont");
+
+window.addEventListener("load", () =>
+	preloader.classList.add("spinner-loaded")
+);

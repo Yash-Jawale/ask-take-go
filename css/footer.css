@@ -39,7 +39,10 @@ footer {
 	justify-content: flex-end;
 	margin-bottom: 20px;
 }
-.social-cont i {
+.social-cont a {
+	color: #fff;
+}
+.social-cont a i {
 	height: 50px;
 	width: 50px;
 	background-color: #293d5e;
