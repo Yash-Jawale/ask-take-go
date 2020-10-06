@@ -132,6 +132,14 @@ body {
 }
 
 .hero {
+	/* background-image: url("../assets/home/hero.png"); */
+	/* background-size: cover; */
+	background-color: var(--primary);
+	/* height: 90vh; */
+	/* background-position: center bottom; */
+	text-align: center;
+}
+.hero > div {
 	background-image: url("../assets/home/hero.png");
 	background-size: cover;
 	background-color: var(--primary);

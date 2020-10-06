@@ -71,3 +71,12 @@ const preloader = document.querySelector(".spinner-cont");
 window.addEventListener("load", () =>
 	preloader.classList.add("spinner-loaded")
 );
+
+AOS.init({
+	// easing: "ease-in-out",
+	easing: "ease-out-quart",
+	duration: 800,
+	// delay: 300,
+	once: true,
+	disable: "mobile",
+});
