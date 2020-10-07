@@ -2,6 +2,7 @@ body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+	overflow-x: hidden;
 }
 .container {
 	flex: 1;
@@ -148,13 +149,13 @@ body {
 	text-align: center;
 }
 .hero h1 {
-	font-size: 2.5rem;
+	font-size: 2.825rem;
 	/* font-family: "Montserrat", sans-serif;
 	font-weight: 900; */
 	margin-top: -50px;
 }
 .hero p {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: var(--text-white);
 }
 
