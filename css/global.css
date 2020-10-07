@@ -58,7 +58,7 @@
 	--gap-l: 6rem;
 	--top-offset: -180px;
 	--center-offset: 14%;
-	--cont-gap: 10%;
+	--cont-gap: 8%;
 }
 
 /* Dark theme colors */
@@ -160,8 +160,9 @@ p {
 	/* font-size: 1.25rem; */
 	font-size: 1rem;
 	padding-bottom: var(--gap-s);
-	line-height: 1.5;
-	color: var(--pw);
+	line-height: 1.8;
+	/* color: var(--pw); */
+	color: var(--secondary);
 }
 h1,
 h2 {

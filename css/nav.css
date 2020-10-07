@@ -301,4 +301,8 @@ nav a {
 	li.subitem {
 		padding-bottom: 0;
 	}
+	li.last-el {
+		padding-right: 0;
+		margin-right: 0;
+	}
 }
