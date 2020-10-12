@@ -688,6 +688,23 @@ input[type="submit"] {
 	z-index: -1;
 }
 
+/* AOS TWEAKS */
+h1[data-aos="fade-left"],
+p[data-aos="fade-left"] {
+	-webkit-transform: translate3d(20px, 0, 0);
+	transform: translate3d(20px, 0, 0);
+}
+
+div[data-aos="fade-down"],
+p[data-aos="fade-down"] {
+	-webkit-transform: translate3d(0, 20px, 0);
+	transform: translate3d(0, 20px, 0);
+}
+div[data-aos="fade-up"] {
+	-webkit-transform: translate3d(0, -20px, 0);
+	transform: translate3d(0, -20px, 0);
+}
+
 /* -------- RESPONSIVE ------------- */
 @media all and (max-width: 1024px) {
 	[class*="col-"] {

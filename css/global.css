@@ -295,3 +295,9 @@ body {
 .spinner-cont.spinner-loaded {
 	opacity: 0;
 }
+
+/* html,
+body {
+	width: 100vw;
+	height: 100vh;
+} */
