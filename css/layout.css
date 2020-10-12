@@ -597,9 +597,9 @@ a.primary {
 }
 .small-paragraph > div h3 {
 	color: var(--primary);
-	padding-bottom: 2.25rem;
-	font-size: 1.875rem;
-	font-weight: 500;
+	padding-bottom: 1.5rem;
+	font-size: 1.5rem;
+	font-weight: 400;
 }
 .single-sub-head > h2 {
 	font-size: 2.25rem;
@@ -631,7 +631,8 @@ a.primary {
 	color: var(--primary);
 	font-size: 1.875rem;
 	font-weight: 500;
-	padding-bottom: 2.875rem;
+	/* padding-bottom: 2.875rem; */
+	padding-bottom: 2.25rem;
 }
 
 /* ===== CONTACT PAGE =========== */
@@ -654,15 +655,15 @@ form.contact-form {
 	flex-direction: column;
 	width: 100%;
 	background-color: var(--grey-sec);
-	padding: 100px 60px;
-	border-radius: 26px;
+	padding: 50px 50px;
+	border-radius: 10px;
 }
 input,
 textarea {
 	font-weight: 300;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: var(--secondary);
-	padding: 1.2rem 1.5rem;
+	padding: 1rem 1.5rem;
 	border-radius: 6px;
 	border: 0;
 	margin-bottom: 1.825rem;
@@ -670,11 +671,12 @@ textarea {
 input[type="submit"] {
 	color: #fff;
 	background-color: var(--primary);
-	padding: 1.5rem 3rem;
+	padding: 1.2rem 3rem;
 	text-transform: uppercase;
 	width: min-content;
 	font-size: 1.25rem;
 	font-weight: 700;
+	margin-bottom: 0;
 }
 
 .contact-hero {
