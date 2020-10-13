@@ -697,12 +697,12 @@ p[data-aos="fade-left"] {
 
 div[data-aos="fade-down"],
 p[data-aos="fade-down"] {
-	-webkit-transform: translate3d(0, 20px, 0);
-	transform: translate3d(0, 20px, 0);
-}
-div[data-aos="fade-up"] {
 	-webkit-transform: translate3d(0, -20px, 0);
 	transform: translate3d(0, -20px, 0);
+}
+div[data-aos="fade-up"] {
+	-webkit-transform: translate3d(0, 20px, 0);
+	transform: translate3d(0, 20px, 0);
 }
 div[data-aos="zoom-in-up"] {
 	-webkit-transform: translate3d(0, 20px, 0) scale(0.9);
