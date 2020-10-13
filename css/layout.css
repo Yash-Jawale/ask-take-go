@@ -325,6 +325,7 @@ p.single-paragraph {
 }
 .no-tpadding {
 	padding-top: 0;
+	margin-top: 0;
 }
 .no-bpadding {
 	padding-bottom: 0;
@@ -696,11 +697,13 @@ p[data-aos="fade-left"] {
 }
 
 div[data-aos="fade-down"],
+a[data-aos="fade-down"],
 p[data-aos="fade-down"] {
 	-webkit-transform: translate3d(0, -20px, 0);
 	transform: translate3d(0, -20px, 0);
 }
-div[data-aos="fade-up"] {
+div[data-aos="fade-up"],
+p[data-aos="fade-up"] {
 	-webkit-transform: translate3d(0, 20px, 0);
 	transform: translate3d(0, 20px, 0);
 }
