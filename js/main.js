@@ -75,7 +75,7 @@ window.addEventListener("load", () =>
 AOS.init({
 	// easing: "ease-in-out",
 	easing: "ease-out-quad",
-	duration: 1500,
+	duration: 1000,
 	// delay: 300,
 	once: true,
 	disable: "mobile",

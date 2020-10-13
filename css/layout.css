@@ -703,7 +703,8 @@ p[data-aos="fade-down"] {
 	transform: translate3d(0, -20px, 0);
 }
 div[data-aos="fade-up"],
-p[data-aos="fade-up"] {
+p[data-aos="fade-up"],
+form[data-aos="fade-up"] {
 	-webkit-transform: translate3d(0, 20px, 0);
 	transform: translate3d(0, 20px, 0);
 }
