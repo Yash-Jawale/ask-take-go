@@ -704,6 +704,23 @@ div[data-aos="fade-up"] {
 	-webkit-transform: translate3d(0, -20px, 0);
 	transform: translate3d(0, -20px, 0);
 }
+div[data-aos="zoom-in-up"] {
+	-webkit-transform: translate3d(0, 20px, 0) scale(0.9);
+	transform: translate3d(0, 20px, 0) scale(0.9);
+}
+div[data-aos="fade-left"] {
+	-webkit-transform: translate3d(20px, 0, 0);
+	transform: translate3d(20px, 0, 0);
+}
+div[data-aos="fade-right"] {
+	-webkit-transform: translate3d(-20px, 0, 0);
+	transform: translate3d(-20px, 0, 0);
+}
+a[data-aos="zoom-in"],
+p[data-aos="zoom-in"] {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
 
 /* -------- RESPONSIVE ------------- */
 @media all and (max-width: 1024px) {
