@@ -64,39 +64,39 @@
 /* Dark theme colors */
 @media (prefers-color-scheme: dark) {
 	:root {
-		/* --primary: #ff610f;
+		--primary: #ff610f;
 		--secondary: #e5e5e5;
 		--tertiary: #ffd55f;
 		--bg-col: #292929;
 		--grey-sec: #555555;
 		--scroll-bg: red;
-		--primary-hover: #e6651f; */
+		--primary-hover: #e6651f;
 
-		/* --neu-bg: #f2f2f2;
+		--neu-bg: #f2f2f2;
 		--neu-top: rgba(255, 255, 255, 1);
-		--neu-bottom: rgba(0, 0, 0, 0.3); */
+		--neu-bottom: rgba(0, 0, 0, 0.3);
 
 		/*Navigation*/
-		/* --nav-bg: #ff610f;
+		--nav-bg: #ff610f;
 		--nav-links: #181818;
 		--nav-links-hover: #ffffff;
-		--nav-burger: #ffffff; */
+		--nav-burger: #ffffff;
 
 		/*Footer*/
-		/* --footer-bg: #3f3f3f;
-		--footer-text: #ffffffd9; */
+		--footer-bg: #3f3f3f;
+		--footer-text: #ffffffd9;
 
 		/* Style */
-		/* --hero-card: #008dd2d9;
-		--line: #9d9e9e; */
+		--hero-card: #008dd2d9;
+		--line: #9d9e9e;
 
 		/*Text*/
-		/* --heading: #000000;
+		--heading: #000000;
 		--grey-text: #9e9e9e;
 		--body: #000;
 		--text-white: #fff;
 		--pg: #1b1b1bd9;
-		--pw: #000000d9; */
+		--pw: #000000d9;
 	}
 
 	img,

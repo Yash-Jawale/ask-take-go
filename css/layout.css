@@ -330,6 +330,9 @@ p.single-paragraph {
 .no-bpadding {
 	padding-bottom: 0;
 }
+.d-bpadding {
+	padding-bottom: calc(var(--gap-l) * 2);
+}
 .no-rpadding {
 	padding-right: 0;
 }
@@ -417,7 +420,6 @@ a.primary {
 	align-items: center;
 }
 .three-cards > div > div {
-	background-image: url("https://picsum.photos/500");
 	width: 100%;
 	height: 300px;
 	border-radius: 10px;
@@ -548,7 +550,8 @@ a.primary {
 }
 .single-paragraph h2 {
 	padding-bottom: 2.25rem;
-	font-size: 2.1rem;
+	/* font-size: 2.1rem; */
+	font-size: 1.875rem;
 	font-weight: 500;
 }
 
