@@ -4,7 +4,8 @@
   "description": "The website for Ask Take Go",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Yash-Jawale/ask-take-go/issues"
   },
-  "homepage": "https://github.com/Yash-Jawale/ask-take-go#readme"
+  "homepage": "https://github.com/Yash-Jawale/ask-take-go#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
