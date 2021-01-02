@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Yash-Jawale/ask-take-go#readme",
   "dependencies": {
     "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
   }
 }
