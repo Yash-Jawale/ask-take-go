@@ -681,6 +681,24 @@ input[type="submit"] {
   font-size: 1.25rem;
   font-weight: 700;
   margin-bottom: 0;
+  cursor: pointer;
+}
+
+section.login {
+  a {
+    color: var(--primary);
+  }
+}
+
+.login-form {
+  // align-items: center;
+  input[type="submit"] {
+    width: 100%;
+  }
+  a {
+    margin-bottom: 1.825rem;
+    color: var(--primary);
+  }
 }
 
 .contact-hero {

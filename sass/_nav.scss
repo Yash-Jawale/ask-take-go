@@ -131,7 +131,7 @@ nav a {
 }
 /* --- Overriding --- */
 .button a {
-  background: var(--nav-btn-bg);
+  background: var(--bg-col);
   border: 0;
   color: var(--nav-btn-txt);
   border-radius: 8px;
@@ -174,6 +174,20 @@ nav a {
 }
 .active {
   padding-bottom: 12px;
+}
+
+// BUTTON
+.nav-button {
+  background-color: #fff;
+  padding-right: 15px !important;
+  padding-left: 15px;
+  border-radius: 4px;
+  a {
+    color: var(--primary);
+    &:hover {
+      color: var(--primary) !important;
+    }
+  }
 }
 
 /* Tablet Menu  */
