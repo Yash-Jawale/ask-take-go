@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>New Registration - Ask Take Go</title>
+    <title>Contact - Ask Take Go</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./sass/main.scss" />
     <link
@@ -40,7 +40,7 @@
         <li class="item"><a href="./value.html">Value</a></li>
         <li class="item"><a href="./why-ask-takego.html">Why AskTakeGo?</a></li>
         <li class="item"><a href="./company.html">Company</a></li>
-        <li class="item"><a href="./contact.html">Contact</a></li>
+        <li class="item active-page"><a href="./contact.html">Contact</a></li>
         <li class="item last-el nav-button">
           <a href="./login.html">Login/Register</a>
         </li>
@@ -53,36 +53,90 @@
         </li>
       </ul>
     </nav>
+    <div class="main-row no-bpadding">
+      <div class="gutter"></div>
+      <div class="sub-row">
+        <div class="col-12">
+          <div class="head sec">
+            <h1>Contact</h1>
+          </div>
+        </div>
+        <div class="gutter"></div>
+      </div>
+    </div>
 
-    <section class="login">
-      <div class="main-row">
+    <div class="main-row no-tpadding no-bpadding">
+      <div class="sub-row">
+        <div class="col-b">
+          <div class="img-cont-l">
+            <img
+              src="./assets/contact/contact-hero.jpg"
+              alt=""
+              class="side-img"
+            />
+          </div>
+        </div>
+        <div class="col-s">
+          <div data-aos="fade-right" class="cont-r side-desc contact-desc">
+            <p>
+              Connect Communicate and Engage <br />
+              To Deliver the exact service needed for the job  
+            </p>
+            <p>
+              <strong>Start offering Go Collaborative Solutions</strong><br />
+            </p>
+            <p>Advance sale success rate with Go collaborator service</p>
+            <p>
+              We work with:<br />
+              Large customer base <br />
+              Wide range of locations
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="gutter"></div>
+    </div>
+
+    <section>
+      <div class="main-row no-tpadding no-bpadding">
         <div class="gutter"></div>
         <div class="sub-row">
-          <div class="col-4"></div>
-          <div class="col-4">
-            <form data-aos="fade-up" class="contact-form login-form">
-              <h1>Register</h1>
-              <input type="text" name="name" placeholder="Name" />
-              <input type="email" name="email" placeholder="Email" />
-              <input type="tel" name="phone" placeholder="Phone" />
-              <input type="password" name="password" placeholder="Password" />
-              <input
-                type="password"
-                name="c-password"
-                placeholder="Confirm Password"
-              />
-              <a href="#">Terms & Conditions</a>
-              <input type="submit" value="Submit" />
-              <a style="margin-bottom: 0" href="./login.html"
-                >Already have an account? - Login</a
-              >
-            </form>
+          <div data-aos="fade-right" class="col-6 single-paragraph side-desc">
+            <p></p>
           </div>
-          <div class="col-4"></div>
+          <div class="col-6"></div>
         </div>
         <div class="gutter"></div>
       </div>
     </section>
+
+    <!-- FORM SECTION -->
+    <section>
+      <div class="main-row no-tpadding">
+        <div class="gutter"></div>
+        <div class="sub-row">
+          <div class="col-6"></div>
+          <div class="col-6">
+            <form data-aos="fade-up" class="contact-form">
+              <input type="text" name="name" placeholder="Name" />
+              <input type="email" name="email" placeholder="Email" />
+              <input type="tel" name="phone" placeholder="Phone" />
+              <textarea
+                name="message"
+                placeholder="Message"
+                rows="3"
+              ></textarea>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+        <div class="gutter"></div>
+      </div>
+    </section>
+
+    <!-- BOTTOM HERO -->
+
+    <div class="contact-hero"></div>
 
     <footer>
       <div class="main-row">
@@ -96,7 +150,7 @@
             <a href="./company.html">Company</a>
           </div>
           <div class="col-4 ft-links">
-            <!-- <a href="#">Support</a> -->
+            <a href="#">Support</a>
             <a href="./contact.html">Contact Us</a>
             <a href="#">Privacy Policy</a>
             <a href="#">FAQ</a>
@@ -113,7 +167,6 @@
         <div class="gutter"></div>
       </div>
     </footer>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/main.js"></script>
   </body>
