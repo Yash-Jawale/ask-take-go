@@ -392,6 +392,17 @@ a.primary {
   color: var(--text-white);
 }
 
+.blank-sec {
+  text-align: center;
+  p {
+    font-size: 1.5rem;
+  }
+  strong {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+}
+
 .big-text {
   font-size: 1.75rem;
 }
