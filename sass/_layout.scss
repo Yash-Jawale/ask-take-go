@@ -665,11 +665,38 @@ a.primary {
   font-size: 2.5rem;
 }
 
+.contact-bg {
+  // background-color: #fff;
+  // background: url(../assets/contact/contact-hero.jpg);
+
+  // background-size: cover;
+  display: block;
+  position: relative;
+  &::after {
+    content: "";
+    background: url(../assets/contact/contact-hero.jpg);
+    opacity: 0.5;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+  h1 {
+    color: var(--primary) !important;
+  }
+}
+
 form.contact-form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   background-color: var(--grey-sec);
+  background-color: rgba(245, 245, 245, 0.5);
   padding: 50px 50px;
   border-radius: 10px;
 }
@@ -677,6 +704,8 @@ input,
 textarea {
   font-weight: 300;
   font-size: 1rem;
+  max-width: 100%;
+  width: 100%;
   color: var(--secondary);
   padding: 0.825rem 1.5rem;
   border-radius: 6px;
