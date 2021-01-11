@@ -149,7 +149,7 @@ body {
   /* background-position: center bottom; */
   text-align: center;
   .hero-white-cont {
-    background-color: rgba(245, 245, 245, 0.7);
+    background-color: rgba(245, 245, 245, 0.6);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -381,7 +381,8 @@ p.single-paragraph {
 a.primary {
   color: var(--bg-col);
   background-color: var(--primary);
-  padding: 1.1rem 1.8rem;
+  // padding: 1.1rem 1.8rem;
+  padding: 10px 15px;
   border-radius: 4px;
   // text-transform: uppercase;
   font-weight: 700;
@@ -714,7 +715,7 @@ a.primary {
   &::after {
     content: "";
     background: url(../assets/contact/contact-hero.jpg);
-    opacity: 0.5;
+    opacity: 1;
     background-size: cover;
     top: 0;
     left: 0;
@@ -735,7 +736,7 @@ form.contact-form {
   // align-items: center;
   width: 100%;
   background-color: var(--grey-sec);
-  background-color: rgba(245, 245, 245, 0.7);
+  background-color: rgba(245, 245, 245, 0.6);
   padding: 50px 50px;
   border-radius: 10px;
 }
@@ -754,7 +755,8 @@ textarea {
 input[type="submit"] {
   color: #fff;
   background-color: var(--primary);
-  padding: 1.2rem 3rem;
+  // padding: 1.2rem 3rem;
+  padding: 10px 15px;
   text-transform: uppercase;
   width: min-content;
   font-size: 1.25rem;
@@ -771,9 +773,10 @@ section.login {
 
 .login-form {
   padding: 40px 50px !important;
+  align-items: center;
   // align-items: center;
   input[type="submit"] {
-    width: 100%;
+    width: 50%;
     margin-bottom: 1.825rem;
   }
   a {
