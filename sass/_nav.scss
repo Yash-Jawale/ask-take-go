@@ -183,9 +183,9 @@ nav a {
   padding-left: 15px;
   border-radius: 4px;
   a {
-    color: var(--primary);
+    color: #000;
     &:hover {
-      color: var(--primary) !important;
+      color: #000 !important;
     }
   }
 }

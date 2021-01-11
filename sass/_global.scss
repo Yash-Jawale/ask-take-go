@@ -16,9 +16,9 @@
 
 /* Default theme colors */
 :root {
-  --primary: #ff610f;
+  --primary: #f17e00;
   --secondary: #3e5272;
-  --tertiary: #ffd55f;
+  --tertiary: #fbbc05;
   --bg-col: #fff;
   --grey-sec: #f5f5f5;
   --scroll-bg: #ececec;
@@ -29,7 +29,7 @@
   --neu-bottom: rgba(0, 0, 0, 0.3);
 
   /*Navigation*/
-  --nav-bg: #ff610f;
+  --nav-bg: #fbbc05;
   --nav-links: #181818;
   --nav-links-hover: #ffffff;
   --nav-burger: #ffffff;
@@ -117,7 +117,7 @@
    that is currently Firefox-only */
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--primary) var(--scroll-bg);
+  scrollbar-color: var(--tertiary) var(--scroll-bg);
 }
 
 /* Works on Chrome/Edge/Safari */
@@ -128,7 +128,7 @@
   background: var(--scroll-bg);
 }
 *::-webkit-scrollbar-thumb {
-  background-color: var(--primary);
+  background-color: var(--tertiary);
   border-radius: 4px;
   border: 2px solid var(--scroll-bg);
 }
@@ -215,12 +215,12 @@ body {
 ::-moz-selection {
   /* Code for Firefox */
   color: var(--bg-col);
-  background: var(--primary);
+  background: var(--tertiary);
 }
 
 ::selection {
   color: var(--bg-col);
-  background: var(--primary);
+  background: var(--tertiary);
 }
 
 /* --- GLOBAL ELEMENTS --- */
@@ -315,7 +315,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--primary);
+  background-color: var(--tertiary);
   pointer-events: none;
   opacity: 0;
 }

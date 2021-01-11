@@ -137,6 +137,9 @@ body {
   z-index: -1;
   object-fit: cover;
 }
+.yellow-sec {
+  background-color: var(--tertiary);
+}
 
 .hero {
   /* background-image: url("../assets/home/hero.png"); */
@@ -146,13 +149,14 @@ body {
   /* background-position: center bottom; */
   text-align: center;
   .hero-white-cont {
-    background-color: rgba(245, 245, 245, 0.5);
+    background-color: rgba(245, 245, 245, 0.7);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
     margin: 20px 0;
     border-radius: 4px;
+    width: 85%;
     a.primary {
       display: block;
       width: max-content;
@@ -172,7 +176,7 @@ body {
 }
 .hero h1 {
   // font-size: 2.825rem;
-  font-size: 2.625rem;
+  font-size: 1.8rem;
   // margin-top: -50px;
   padding-bottom: 1rem;
 }
@@ -269,16 +273,16 @@ body {
 }
 
 .grey-part-cont {
-  background-color: var(--grey-sec);
+  // background-color: var(--grey-sec);
   /* padding-top: var(--gap-l);
       padding-bottom: var(--gap-l); */
   padding: var(--gap-l) var(--gap-l);
 }
-.grey-part-cont h2 {
-  color: var(--primary);
-  font-size: 2rem;
-  font-weight: 400;
-}
+// .grey-part-cont h2 {
+//   color: var(--primary);
+//   font-size: 2rem;
+//   font-weight: 400;
+// }
 .grey-part-cont p,
 .side-desc p {
   color: var(--secondary);
@@ -294,9 +298,22 @@ body {
 .side-desc strong {
   line-height: 2;
 }
-.grey-part-cont strong {
-  font-weight: 700;
-  line-height: 2;
+// .grey-part-cont strong {
+//   font-weight: 700;
+//   line-height: 2;
+// }
+
+.grey-part-cont {
+  p {
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  strong {
+    color: var(--secondary);
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
 }
 
 .cta-center {
@@ -364,9 +381,9 @@ p.single-paragraph {
 a.primary {
   color: var(--bg-col);
   background-color: var(--primary);
-  padding: 1.3rem 2rem;
+  padding: 1.1rem 1.8rem;
   border-radius: 4px;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   font-weight: 700;
   font-size: 1.2rem;
   /* -webkit-box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.3);
@@ -653,6 +670,12 @@ a.primary {
   max-width: 100px;
 }
 
+.why-sell-bg {
+  background: url(../assets/home/why-sell.jpg);
+  background-size: cover;
+  background-position: 20% center;
+}
+
 /* ======= COMPANY PAGE ======= */
 
 .single-hero {
@@ -709,10 +732,10 @@ a.primary {
 form.contact-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;
   width: 100%;
   background-color: var(--grey-sec);
-  background-color: rgba(245, 245, 245, 0.5);
+  background-color: rgba(245, 245, 245, 0.7);
   padding: 50px 50px;
   border-radius: 10px;
 }
@@ -756,6 +779,7 @@ section.login {
   a {
     margin-bottom: 1.825rem;
     color: var(--primary);
+    text-align: center;
   }
   h1 {
     font-weight: 500;
@@ -771,6 +795,30 @@ section.login {
   background-size: cover;
   margin-top: -400px;
   z-index: -1;
+}
+
+.why-sell-head {
+  text-align: center;
+  color: var(--secondary);
+  padding-bottom: 1.8rem;
+  h2 {
+    color: var(--secondary);
+    padding-bottom: 1.2rem;
+    font-weight: 500;
+  }
+}
+.why-sell-col {
+  color: var(--secondary);
+  text-align: center;
+  h3 {
+    font-size: 1.3rem;
+    color: var(--secondary);
+    font-weight: 500;
+  }
+  .col-4 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 /* AOS TWEAKS */
