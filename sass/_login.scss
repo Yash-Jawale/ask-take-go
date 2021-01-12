@@ -1,5 +1,5 @@
 .login-bg {
-  display: block;
+  // display: block;
   position: relative;
   &::after {
     background: url(../assets/form/bulldozer.jpg);
@@ -15,7 +15,7 @@
   }
 }
 .register-bg {
-  display: block;
+  // display: block;
   position: relative;
   &::after {
     background: url(../assets/form/excavator.jpg);
