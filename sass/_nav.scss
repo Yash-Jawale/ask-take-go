@@ -80,10 +80,14 @@ nav a {
   order: 3;
   width: 100%;
   text-align: center;
-  display: none;
-}
-.active .item {
+  // display: none;
   display: block;
+}
+// .active .item {
+//   display: block;
+// }
+.closed .item {
+  display: none;
 }
 .button.secondary {
   /* Divider between buttons and menu links */
@@ -163,18 +167,37 @@ nav a {
   margin: 5px;
   transition: all 0.3s ease;
 }
-.toggle-burger .line1 {
+// .toggle-burger .line1 {
+//   transform: rotate(-45deg) translate(-5px, 8px);
+// }
+// .toggle-burger .line2 {
+//   opacity: 0;
+// }
+// .toggle-burger .line3 {
+//   transform: rotate(45deg) translate(-5px, -8px);
+// }
+.line1 {
   transform: rotate(-45deg) translate(-5px, 8px);
 }
-.toggle-burger .line2 {
+.line2 {
   opacity: 0;
 }
-.toggle-burger .line3 {
+.line3 {
   transform: rotate(45deg) translate(-5px, -8px);
 }
-.active {
-  padding-bottom: 12px;
+
+.toggled .line1 {
+  transform: unset;
 }
+.toggled .line2 {
+  opacity: 1;
+}
+.toggled .line3 {
+  transform: unset;
+}
+// .active {
+//   padding-bottom: 12px;
+// }
 
 // BUTTON
 .nav-button {
@@ -196,6 +219,9 @@ nav a {
   /* @media all and (min-width: 1175px) { */
   .menu {
     justify-content: center;
+  }
+  .closed .item {
+    display: block;
   }
   .logo {
     flex: 1;

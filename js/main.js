@@ -5,19 +5,19 @@ const burger = document.querySelector(".burger-cont");
 /* Toggle Mobile Menu */
 
 function toggleMenu() {
-  if (menu.classList.contains("active")) {
-    menu.classList.remove("active");
+  if (menu.classList.contains("closed")) {
+    menu.classList.remove("closed");
 
     // adds the menu (hamburger) icon
     // toggle.querySelector("a").innerHTML = `<i class="fas fa-bars"></i>`;
   } else {
-    menu.classList.add("active");
+    menu.classList.add("closed");
 
     // adds the close (X) icon
     // toggle.querySelector("a").innerHTML = `<i class="fas fa-times"></i>`;
   }
 
-  burger.classList.toggle("toggle-burger");
+  burger.classList.toggle("toggled");
 }
 
 /* Event Listener */
