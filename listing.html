@@ -14,6 +14,10 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -59,141 +63,159 @@
       </ul>
     </nav>
 
-    <div class="main-row no-bpadding">
-      <div class="gutter"></div>
-      <div class="sub-row">
-        <div class="col-12">
-          <div class="head sec">
-            <h1>Listing</h1>
+    <div class="listing-container">
+      <div class="main-row no-bpadding no-tpadding">
+        <div class="gutter"></div>
+        <div class="sub-row">
+          <div class="col-12">
+            <div class="head sec">
+              <h1>Listing</h1>
+            </div>
+          </div>
+          <div class="gutter"></div>
+        </div>
+      </div>
+
+      <div class="main-row no-tpadding no-bpadding">
+        <div class="gutter"></div>
+        <div class="sub-row">
+          <div class="col-12">
+            <form class="search-form">
+              <input type="text" placeholder="Search" />
+              <button type="submit">
+                <i class="material-icons md-36">search</i>
+              </button>
+              <button>Filter</button>
+            </form>
           </div>
         </div>
         <div class="gutter"></div>
       </div>
-    </div>
 
-    <div class="main-row no-tpadding">
-      <div class="gutter"></div>
-      <div class="sub-row">
-        <div class="col-12 prod-container">
-          <div class="prod-card">
-            <div class="prod-image">
-              <a href="#">
-                <img src="./assets/example/mack.jpg" alt="Mack" />
-              </a>
-            </div>
-            <div class="prod-bottom">
-              <strong>Mack The Semi</strong>
-              <div class="prod-author">
-                <img src="./assets/example/av1.jpg" alt="" />
-                <p>Ken Burn</p>
+      <div class="main-row no-tpadding">
+        <div class="gutter"></div>
+        <div class="sub-row">
+          <div class="col-12 prod-container">
+            <div class="prod-card">
+              <div class="prod-image">
+                <a href="#">
+                  <img src="./assets/example/mack.jpg" alt="Mack" />
+                </a>
               </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti reiciendis eligendi vel nostrum.
-              </p>
-              <div class="prod-buttons">
-                <a href="#" class="prod-buy">Buy Now</a>
-                <a href="#" class="prod-learn">Learn More</a>
+              <div class="prod-bottom">
+                <strong>Mack The Semi</strong>
+                <div class="prod-author">
+                  <img src="./assets/example/av1.jpg" alt="" />
+                  <p>Ken Burn</p>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deleniti reiciendis eligendi vel nostrum.
+                </p>
+                <div class="prod-buttons">
+                  <a href="#" class="prod-buy">Buy Now</a>
+                  <a href="#" class="prod-learn">Learn More</a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="prod-card">
-            <div class="prod-image">
-              <a href="#">
-                <img src="./assets/example/tracked.jpg" alt="Mack" />
-              </a>
-            </div>
-            <div class="prod-bottom">
-              <strong>Tracked Mobile</strong>
-              <div class="prod-author">
-                <img src="./assets/example/av2.jpg" alt="" />
-                <p>Jason Smith</p>
+            <div class="prod-card">
+              <div class="prod-image">
+                <a href="#">
+                  <img src="./assets/example/tracked.jpg" alt="Mack" />
+                </a>
               </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti reiciendis eligendi vel nostrum ab pariatur placeat in
-                sunt aperiam labore.
-              </p>
-              <div class="prod-buttons">
-                <a href="#" class="prod-buy">Buy Now</a>
-                <a href="#" class="prod-learn">Learn More</a>
+              <div class="prod-bottom">
+                <strong>Tracked Mobile</strong>
+                <div class="prod-author">
+                  <img src="./assets/example/av2.jpg" alt="" />
+                  <p>Jason Smith</p>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deleniti reiciendis eligendi vel nostrum ab pariatur placeat
+                  in sunt aperiam labore.
+                </p>
+                <div class="prod-buttons">
+                  <a href="#" class="prod-buy">Buy Now</a>
+                  <a href="#" class="prod-learn">Learn More</a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="prod-card">
-            <div class="prod-image">
-              <a href="#">
-                <img src="./assets/example/toby.jpg" alt="Mack" />
-              </a>
-            </div>
-            <div class="prod-bottom">
-              <strong>Toby The Crane</strong>
-              <div class="prod-author">
-                <img src="./assets/example/av3.jpg" alt="" />
-                <p>Kaylee Burton</p>
+            <div class="prod-card">
+              <div class="prod-image">
+                <a href="#">
+                  <img src="./assets/example/toby.jpg" alt="Mack" />
+                </a>
               </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti reiciendis eligendi vel nostrum ab pariatur placeat.
-              </p>
-              <div class="prod-buttons">
-                <a href="#" class="prod-buy">Buy Now</a>
-                <a href="#" class="prod-learn">Learn More</a>
+              <div class="prod-bottom">
+                <strong>Toby The Crane</strong>
+                <div class="prod-author">
+                  <img src="./assets/example/av3.jpg" alt="" />
+                  <p>Kaylee Burton</p>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deleniti reiciendis eligendi vel nostrum ab pariatur placeat.
+                </p>
+                <div class="prod-buttons">
+                  <a href="#" class="prod-buy">Buy Now</a>
+                  <a href="#" class="prod-learn">Learn More</a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="prod-card">
-            <div class="prod-image">
-              <a href="#">
-                <img src="./assets/example/utility.jpg" alt="Mack" />
-              </a>
-            </div>
-            <div class="prod-bottom">
-              <strong>Utility Truck</strong>
-              <div class="prod-author">
-                <img src="./assets/example/av4.jpg" alt="" />
-                <p>Bobby Evans</p>
+            <div class="prod-card">
+              <div class="prod-image">
+                <a href="#">
+                  <img src="./assets/example/utility.jpg" alt="Mack" />
+                </a>
               </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti!
-              </p>
-              <div class="prod-buttons">
-                <a href="#" class="prod-buy">Buy Now</a>
-                <a href="#" class="prod-learn">Learn More</a>
+              <div class="prod-bottom">
+                <strong>Utility Truck</strong>
+                <div class="prod-author">
+                  <img src="./assets/example/av4.jpg" alt="" />
+                  <p>Bobby Evans</p>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deleniti!
+                </p>
+                <div class="prod-buttons">
+                  <a href="#" class="prod-buy">Buy Now</a>
+                  <a href="#" class="prod-learn">Learn More</a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="prod-card">
-            <div class="prod-image">
-              <a href="#">
-                <img src="./assets/example/betty.jpg" alt="Mack" />
-              </a>
-            </div>
-            <div class="prod-bottom">
-              <strong>Betty The Sweeper</strong>
-              <div class="prod-author">
-                <img src="./assets/example/avatar.png" alt="" />
-                <p>John Doe</p>
+            <div class="prod-card">
+              <div class="prod-image">
+                <a href="#">
+                  <img src="./assets/example/betty.jpg" alt="Mack" />
+                </a>
               </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti reiciendis eligendi vel nostrum ab pariatur placeat in
-                sunt aperiam labore.
-              </p>
-              <div class="prod-buttons">
-                <a href="#" class="prod-buy">Buy Now</a>
-                <a href="#" class="prod-learn">Learn More</a>
+              <div class="prod-bottom">
+                <strong>Betty The Sweeper</strong>
+                <div class="prod-author">
+                  <img src="./assets/example/avatar.png" alt="" />
+                  <p>John Doe</p>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deleniti reiciendis eligendi vel nostrum ab pariatur placeat
+                  in sunt aperiam labore.
+                </p>
+                <div class="prod-buttons">
+                  <a href="#" class="prod-buy">Buy Now</a>
+                  <a href="#" class="prod-learn">Learn More</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="gutter"></div>
       </div>
-      <div class="gutter"></div>
     </div>
 
     <footer>

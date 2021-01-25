@@ -201,14 +201,23 @@ nav a {
 
 // BUTTON
 .nav-button {
-  background-color: #fff;
-  padding-right: 15px !important;
-  padding-left: 15px;
-  border-radius: 4px;
+  // background-color: #fff;
+  // padding-right: 15px !important;
+  // padding-left: 15px;
+  // border-radius: 4px;
+  padding: 0;
   a {
     color: #000;
+    display: inline-block !important;
+    background-color: #fff;
+    // padding-right: 15px !important;
+    // padding-left: 15px !important;
+    padding: 10px 15px !important;
+    border-radius: 4px !important;
+    transition: background-color 0.2s ease !important;
     &:hover {
       color: #000 !important;
+      background-color: #ddd;
     }
   }
 }
